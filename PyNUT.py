@@ -39,7 +39,7 @@
 #            Added custom exception class, fixed minor bug, added Python 3 support.
 #
 
-import telnetlib
+import telnetlib #TODO Make PY3 Compatitable
 
 
 class PyNUTError(Exception):
